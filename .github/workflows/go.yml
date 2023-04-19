@@ -14,9 +14,8 @@ on:
       - Aula_5
    
 jobs:
-
   test:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         go_version: ['1.19', '1.18', '>=1.19']
